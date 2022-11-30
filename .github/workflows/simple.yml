@@ -34,7 +34,7 @@ jobs:
           echo test, and deploy your project.
 
       - name: Sleep for some time
-        run: sleeeeeep 10
+        run: sleep 10
 
       - name: Show my file
-        run: less my_file.txt
+        run: lessss my_file.txt
