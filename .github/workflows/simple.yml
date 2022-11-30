@@ -26,8 +26,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Show my file and sleep
         run: |
-          sleep 10
           less my_file.txt
+          sleep 10
       
       - name: Show success message
         run: echo "Github Actions was successful. Hooray!"
