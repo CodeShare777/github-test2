@@ -32,6 +32,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          sleep 5
       
       - name: Show my file
         run: less my_file.txt
